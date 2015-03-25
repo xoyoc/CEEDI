@@ -1,0 +1,564 @@
+/*Theme Name: Centro Educacion de ISELAC
+Theme URI: http://www.ceedi.edu.mx
+Author: Tec. Antonio Xoyoc Becerra Farias
+Author URI: http://www.ceedi.edu.mx/humans.txt
+Description: Este es el tema para el centro educativo ISELAC diseñado para utilizarlo en WordPress
+Version: 1.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: Escuela, Centro de educacion, Bachillerato.*/
+
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('/fonts/icomoon.eot?mnhqvy');
+	src:url('/fonts/icomoon.eot?#iefixmnhqvy') format('embedded-opentype'),
+		url('/fonts/icomoon.woff?mnhqvy') format('woff'),
+		url('/fonts/icomoon.ttf?mnhqvy') format('truetype'),
+		url('/fonts/icomoon.svg?mnhqvy#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-document-alt-stroke:before {
+	content: "\e600";
+}
+
+.icon-document-alt-fill:before {
+	content: "\e601";
+}
+
+.icon-file-pdf:before {
+	content: "\f014";
+}
+
+.icon-file-text:before {
+	content: "\f011";
+}
+
+.icon-facebook:before {
+	content: "\e602";
+}
+
+.icon-twitter-old:before {
+	content: "\e603";
+}
+
+.icon-share:before {
+	content: "\e604";
+}
+
+.icon-feed:before {
+	content: "\e605";
+}
+
+.icon-bird:before {
+	content: "\e606";
+}
+
+.icon-file:before {
+	content: "\e607";
+}
+
+body
+{
+	background: rgba(0,0,0,0.2);
+	margin: 1em 1em;
+	padding: .5em;
+}
+
+header article div
+{
+	font-size: 3em;
+	display: inline-block;
+	margin: .3em .2em;
+}
+
+header
+{
+	background: #1C3D5D;
+	box-shadow: 4px 4px 5px black;
+	height: 720px;
+	padding: .5em;
+	float: left;
+	min-width: 24%;
+}
+
+header article
+{
+	color: #FCE624;
+	text-align: center;
+}
+
+header figure img
+{
+	border-radius: 1em;
+	box-shadow: 0 0 50px #888888;
+	margin: .5em 1.5em;
+}
+
+header nav
+{
+	background: white;
+	width: 85%;
+	margin: auto;
+	text-align: center;
+}
+
+header nav ul
+{
+	padding: 0;
+}
+
+header nav ul li a
+{
+	color: black;
+	text-decoration: none;
+	font-size: 1.3em;
+}
+
+header nav ul li a:hover
+{
+	color: rgb(230,230,240);
+	text-shadow: 2px 2px 1px black, -2px -2px 1px black;
+	transition-duration: .5s;
+	border-bottom: 1px solid black;
+}
+header nav ul li
+{
+	border-top: 1px solid #BBBBBB;
+	border-bottom: 1px solid #BBBBBB;
+	padding: .5em;
+	list-style: none;
+}
+
+section
+{
+	background: url("/img/fondo.png");
+	box-shadow: 4px 4px 5px black;
+	width: 64%;
+	padding: .5em;
+	height: 720px;
+	float: right;
+	margin: top;
+}
+
+section figure img
+{
+	width: 110px;
+	height: 80px;
+	margin-left: 90%;
+}
+
+section h2
+{
+	font-size: 3em;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+}
+
+footer
+{
+	background: #1C3D5D;
+	box-shadow: 4px 4px 5px black;
+	display: inline-block;
+	margin: .5em 0;
+	height: 100%;
+	width: 100%;
+}
+
+footer figure
+{
+	display: inline-block;
+}
+
+#requisitos
+{
+	font-size: 1.5em;
+	margin: 3em 3em;
+}
+
+#requisitos p
+{
+	font-style: italic;
+}
+
+#requisitos h2
+{
+	font-size: 1.5em;
+}
+
+
+#fotoPie1 img
+{
+	border-radius: 1em;
+	box-shadow: 0 0 50px #888888;
+	width: 450px;
+	height: 250px;
+}
+
+#fotoPie2 img
+{
+	border-radius: 1em;
+	box-shadow: 0 0 50px #888888;
+	width: 350px;
+	height: 250px;
+}
+
+#fotoPie3 img
+{
+	border-radius: 1em;
+	box-shadow: 0 0 50px #888888;
+	width: 250px;
+	height: 250px;
+}
+
+.entrada>img
+{
+	border: medium solid #444;
+	border-radius: 50%;
+	float: left;
+}
+
+.extracto
+{
+	margin: 2em 1em 2em;
+	text-align: left;
+	display: block;
+	width: 70%;
+}
+
+.cmapa
+{
+	display: inline-block;
+	width: 40%;
+	margin: 0 2em;
+}
+
+.cmapa h4
+{
+	margin: .5em;	
+}
+
+.pagina
+{
+	margin: 1em;
+}
+
+.parf1 
+{
+	font-size: 1.2em;
+	text-align: center;
+	margin:0;
+}
+
+.parf2
+{
+	color: navy;
+	text-shadow: 2px 2px 10px rgb(255,238,157), -2px -2px 10px rgb(255,238,157);
+	font-size: 2.5em;
+	margin: 0 .5em;
+}
+
+.parf3
+{
+	text-align: center;
+	text-shadow: 2px 2px 10px white, -2px -2px 10px white;
+	font-size: 1.8em;
+	margin:0;
+	margin-left: 60%;
+}
+
+.parf6
+{
+	text-shadow: 2px 2px 50px white, -2px -2px 50px white;
+	font-family: 'Nunito', sans-serif;
+	font-size: 6em;
+	margin:0;
+	margin-left: 10%;
+}
+
+@media screen and (min-width: 1340px){
+	body
+	{
+		padding: 0;
+		margin: 1em auto;
+		width: 1375px;
+		height: 280px;
+	}
+	header
+	{
+		max-width: 25%;
+	}
+	header figure
+	{
+		margin: auto;
+	}
+	section
+	{	
+		width: 73%;
+	}
+}
+
+@media screen and (max-width: 1280px){
+	header
+	{
+		min-width: 0;
+		padding: 0;
+		margin: 0;
+	}
+	header nav
+	{
+		margin: 2.5em;
+	}
+	section
+	{	
+		padding: 0;
+		width: 66%;
+	}
+	section h2
+	{
+		font-size: 1.8em;
+	}
+	section figure img
+	{
+		width: 100px;
+		height: 70px;
+		margin-left: 85%;
+	}
+	#fotoPie2 img
+	{
+		display: none;
+	}
+	.parf2
+	{
+		font-size: 2em;
+	}
+	.parf3
+	{
+		font-size: 1.5em;
+	}
+	.parf6
+	{
+		font-size: 5em;
+	}
+	.cmapa
+	{
+		margin: 0 1em;
+	}
+	.cmapa h4
+	{
+		margin: 0;	
+	}
+}
+
+@media screen and (max-width: 720px){
+	body
+	{
+		padding: 0;
+		margin: 0;
+	}
+	header
+	{
+		width: 45%;
+		padding: 0;
+		margin: 0;
+	}
+
+	header figure img
+	{	
+		width: 200px;
+		height: 150px;
+	}
+	section
+	{	
+		margin: 0;
+		padding: 0;
+		width: 53%;
+	}
+	section h2
+	{
+		font-size: 2em;
+	}
+	section figure img
+	{
+		width: 100px;
+		height: 70px;
+		margin-left: 75%;
+	}
+	#fotoPie1 img
+	{
+		display: none;
+	}
+	#fotoPie2 img
+	{
+		display: none;
+	}
+	.parf2
+	{
+		font-size: 1.5em;
+	}
+	.parf3
+	{
+		font-size: 1.2em;
+	}
+	.parf6
+	{
+		font-size: 4em;
+	}
+	.cmapa
+	{
+		font-size: .8em;
+		margin: 0 .5em;
+	}
+	.cmapa ul
+	{
+		margin: 0;
+	}
+	.cmapa h4
+	{
+		margin: 0;	
+	}
+}
+
+@media screen and (max-width: 640px){
+	body
+	{
+	}
+	header
+	{
+		width: 45%;
+	}
+	header figure img
+	{	
+		margin: .3em;
+	}
+	header nav ul li a
+	{
+		font-size: 1.2em;
+	}
+	section
+	{	
+		margin: 0;
+		padding: 0;
+		width: 53%;
+	}
+	section h2
+	{
+		font-size: 1.8em;
+	}
+	section figure img
+	{
+		width: 100px;
+		height: 70px;
+		margin-left: 75%;
+	}
+	#fotoPie1 img
+	{
+		display: none;
+	}
+	#fotoPie2 img
+	{
+		display: none;
+	}
+	#fotoPie3 img
+	{
+		width: 180px;
+		height: 180px;
+	}
+	.parf2
+	{
+	}
+	.parf3
+	{
+	}
+	.parf6
+	{
+	}
+	.cmapa
+	{
+		font-size: .7em;
+		margin: .5em .5em;
+	}
+}
+
+@media screen and (max-width: 375px){
+	body
+	{
+	}
+	header
+	{	
+		width: 100%;
+	}
+	header figure
+	{
+		margin: .1em;
+	}
+	header figure img
+	{	
+		width: 360px;
+		height: 230px;
+	}
+	header nav ul li a
+	{
+		font-size: 1.2em;
+	}
+	section
+	{	
+		width: 100%;
+		height: auto;
+	}
+	section h2
+	{
+		font-size: 1.8em;
+	}
+	section figure img
+	{
+		width: 100px;
+		height: 70px;
+		margin-left: 75%;
+	}
+	#fotoPie1 img
+	{
+		display: none;
+	}
+	#fotoPie2 img
+	{
+		display: none;
+	}
+	#fotoPie3 img
+	{
+		margin: auto;
+		width: 180px;
+		height: 180px;
+	}
+	.parf2
+	{
+	}
+	.parf3
+	{
+	}
+	.parf6
+	{
+	}
+	.cmapa
+	{
+		font-size: .9em;
+		margin: .5em .5em;
+	}
+}
